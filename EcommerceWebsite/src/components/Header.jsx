@@ -3,15 +3,21 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <div className="landingHeader">
-      <span className="logo">IC</span>
+      <img
+        className="logo"
+        src="/beachwayPicture.png"
+        alt="Island Clothing Logo"
+        style={{ height: "5rem", width: "auto" }}
+      />
       <nav>
         <ul className="navLinks">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About Us</Link></li>
-          <li><Link to="/products">Products</Link></li>
-          <li><Link to="/contact">Contact</Link></li> {/* Optional for later */}
+          <li><Link to="/">Beachway Rentals</Link></li>
+          <li><Link to="/Amenities">Key Amenities</Link></li>
+          <li><Link to="/About">About us</Link></li>
+          <li><Link to="/Contact">Contact</Link></li>
         </ul>
       </nav>
+      <Link to="/" className="rentalsBtn">View Our Rentals</Link>
     </div>
   );
 }

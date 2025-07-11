@@ -1,0 +1,187 @@
+.about-root {
+  width: 100vw;
+  overflow-x: hidden;
+  background: #f7fafd;
+}
+
+/* HERO SECTION */
+.about-hero {
+  width: 100vw;
+  min-height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.about-hero-content {
+  color: #fff;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+.about-hero-content h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  letter-spacing: 2px;
+}
+.about-hero-content h3 {
+  font-size: 1.5rem;
+  color: #93cbd1;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.about-divider {
+  width: 48px;
+  height: 3px;
+  background: #93cbd1;
+  border: none;
+  margin: 1.5rem auto 0 auto;
+}
+
+/* MISSION & VISION */
+.about-mission-vision {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  gap: 2rem;
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+.about-mv-col {
+  flex: 1;
+  background: #fff;
+  border-radius: 10px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  min-width: 300px;
+  max-width: 500px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-mv-col h4 {
+  color: #012d42;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.about-mv-col p {
+  color: #4896a6;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+.about-mv-img {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  min-height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+}
+
+/* ICON ROW */
+.about-icons-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  background: #f3f4f6;
+  padding: 3rem 0;
+  width: 100vw;
+}
+.about-icon-block {
+  flex: 1;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(1,45,66,0.08);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  max-width: 350px;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-icon {
+  margin-bottom: 1rem;
+}
+.about-icon-block h4 {
+  color: #012d42;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.about-icon-block p {
+  color: #4896a6;
+  font-size: 1rem;
+}
+
+/* CALL TO ACTION */
+.about-cta {
+  background: #4896a6;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 0 4rem 0;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100vw;
+}
+.about-cta-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.about-cta-btn {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: 0 2px 8px rgba(62,181,190,0.12);
+  margin-top: 1rem;
+  display: inline-block;
+}
+.about-cta-btn:hover {
+  background: #fff;
+  color: #4896a6;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .about-mission-vision,
+  .about-icons-row,
+  .about-footer-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .about-mv-img, .about-mv-col, .about-icon-block, .about-footer-info > div {
+    max-width: 90vw;
+    min-width: 0;
+    padding: 1.5rem 1rem;
+  }
+  .about-hero-content {
+    padding: 2rem 1rem;
+  }
+}
