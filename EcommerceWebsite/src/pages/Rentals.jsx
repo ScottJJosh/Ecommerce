@@ -16,7 +16,7 @@ function Rentals() {
           <div className="rentals-hero-content">
             <h1>TREAT YOURSELF TO THE ULTIMATE ESCAPE</h1>
             <h3>BOOK THE IDEAL VACATION HOME IN PORT ARANSAS, TEXAS</h3>
-            <a href="/rentals" className="rentals-hero-btn">
+            <a href="/" className="rentals-hero-btn">
               View All Our Rentals
             </a>
           </div>
@@ -90,7 +90,7 @@ function Rentals() {
       {/* CALL TO ACTION */}
       <section className="rentals-cta">
         <span>WANT TO STAY WITH US?</span>
-        <a href="/rentals" className="rentals-cta-btn">
+        <a href="/" className="rentals-cta-btn">
           BOOK NOW
         </a>
       </section>

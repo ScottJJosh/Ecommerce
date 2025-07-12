@@ -5,19 +5,19 @@ function Header() {
     <div className="landingHeader">
       <img
         className="logo"
-        src="/beachwayPicture.png"
-        alt="Island Clothing Logo"
+        src="/Ecommerce/beachwayPicture.png"
+        alt="Beachway Logo"
         style={{ height: "5rem", width: "auto" }}
       />
       <nav>
         <ul className="navLinks">
-          <li><Link to="/">Beachway Rentals</Link></li>
+          <li><Link to="/Ecommerce">Beachway Rentals</Link></li>
           <li><Link to="/Amenities">Key Amenities</Link></li>
           <li><Link to="/About">About us</Link></li>
           <li><Link to="/Contact">Contact</Link></li>
         </ul>
       </nav>
-      <Link to="/" className="rentalsBtn">View Our Rentals</Link>
+      <Link to="/Ecommerce" className="rentalsBtn">View Our Rentals</Link>
     </div>
   );
 }
